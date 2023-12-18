@@ -16,6 +16,7 @@ spec:
       labels:
         app: nginx
     spec:
+      containers:
       - name: nginx
         image: vfarcic/go-demo:1.0
         ports:
