@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: maintndjs/nginx-petclinic:1.0
+        image: viniciussls/nginx-custom
         ports:
           - containerPort: 80
