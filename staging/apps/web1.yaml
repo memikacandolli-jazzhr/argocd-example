@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/memikacandolli-jazzhr/argocd-example.git
     targetRevision: HEAD
-    path: nginx-web1
+    path: staging/nginx-web1
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
