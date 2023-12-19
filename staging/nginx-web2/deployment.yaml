@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: bitnami/nginx:1.25.3
+        image: maintndjs/nginx-petclinic:1.0
         ports:
           - containerPort: 80
